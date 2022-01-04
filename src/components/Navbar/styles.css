@@ -1,0 +1,26 @@
+.main-nav {
+  padding-left: 20px;
+  min-height: 70px;
+  background: #f78b00;
+}
+
+#desafio-navbar {
+  justify-content: flex-end;
+}
+
+.main-menu {
+  display: flex;
+  font-size: 18px;
+  width: 180px;
+  margin-right: 50px;
+  justify-content: space-between;
+}
+
+.main-menu a:hover {
+  color: #fff;
+}
+
+.main-menu a.active {
+  color: #fff;
+  font-weight: bold;
+}
