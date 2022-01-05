@@ -1,13 +1,14 @@
 .wrapper-home {
   align-items: center;
+  padding: 0 20px;
 }
 
 .home-card {
-  background-color: rgba(0, 40, 95, 1);
-  margin: 20px 10px;
+  background-color: #00285f;
   border-radius: 10px;
-  padding: 60px 30px 50px 30px;
+  padding: 60px 30px 45px 30px;
   box-shadow: 2px 2px 8px grey;
+  margin-bottom: 20px;
 }
 
 .image-container {
@@ -30,13 +31,14 @@
 
 .home-content h1 {
   color: #fff;
-  font-size: 18px;
-  margin-bottom: 15px;
+  font-size: 20px;
+  margin-bottom: 5px;
 }
 
 .home-content p {
-  font-size: 12px;
+  font-size: 13px;
   color: #fff;
+  margin-bottom: 0;
 }
 
 .btn-container {
@@ -46,14 +48,14 @@
   border-radius: 10px;
   margin: 0 10px 120px 10px;
   align-items: center;
-  background-color: #EDEDED;
+  background-color: #ededed;
 }
 
 .btn-container button {
   border: unset;
-  background-color: #00285F;
+  background-color: #00285f;
   margin-bottom: 10px;
-  width: 176px;
+  width: 175px;
   height: 40px;
   padding: 0;
 }
@@ -71,11 +73,11 @@
 
 @media (min-width: 576px) {
   .home-card {
-    padding: 20px 30px 20px 30px;
+    padding: 20px 50px;
   }
 
   .image-container img {
-    width: 70%;
+    width: 80%;
   }
 
   .image-container {
@@ -87,13 +89,17 @@
   }
 
   .home-content p {
-    font-size: 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
   }
 
   .btn-container {
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    height: 125px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .btn-container button {
@@ -101,43 +107,41 @@
   }
 
   .btn-container p {
-    margin-bottom: 8px;
+    margin-bottom: 10px;
   }
 }
 
 @media (min-width: 768px) {
-  .home-content p {
-    width: 500px;
-    margin: 0 91px;
+  .home-card {
+    padding: 80px 140px;
+  }
+
+  .image-container img {
+    width: 80%;
   }
 
   .home-content h1 {
     margin-bottom: 0;
   }
 
-  .home-card {
-    padding-bottom: 76px;
+  .home-content p {
+    width: auto;
+    margin: 0;
   }
 
   .btn-container {
     justify-content: flex-start;
+    padding: 40px 85px;
   }
 }
 
 @media (min-width: 992px) {
   .home-card {
-    padding: 90px 250px 125px 250px;
-  }
-
-  .image-container img {
-    width: 100%;
+    padding: 80px 250px;
   }
 
   .home-content p {
-    width: 420px;
-    margin-left: 0;
-    padding-left: 45px;
-    font-size: 18px;
+    margin-bottom: 35px;
   }
 
   .btn-container {
@@ -159,13 +163,21 @@
 }
 
 @media (min-width: 1200px) {
+  body {
+    padding-top: 82px;
+  }
+
+  .wrapper-home {
+    padding: 0 90px;
+  }
+
   .home-card {
     flex-direction: row-reverse;
-    margin: 30px 150px;
-    padding: 85px;
+    padding: 65px;
   }
 
   .home-content {
     text-align: left;
+    padding-top: 55px;
   }
 }
