@@ -15,6 +15,7 @@
   align-items: center;
   display: flex;
   justify-content: center;
+  padding: 0;
 }
 
 .image-container img {
@@ -24,43 +25,48 @@
 .home-content {
   text-align: center;
   align-items: center;
+  padding: 0;
 }
 
 .home-content h1 {
   color: #fff;
-  font-size: 25px;
+  font-size: 18px;
   margin-bottom: 15px;
 }
 
 .home-content p {
-  font-size: 14px;
+  font-size: 12px;
   color: #fff;
 }
 
 .btn-container {
   display: flex;
   flex-direction: column;
-  padding: 30px 60px;
+  padding: 20px 0;
   border-radius: 10px;
   margin: 0 10px 120px 10px;
-  background-color: rgba(237, 237, 237, 1);
   align-items: center;
+  background-color: #EDEDED;
 }
 
 .btn-container button {
   border: unset;
-  background-color: rgba(0, 40, 95, 1);
+  background-color: #00285F;
   margin-bottom: 10px;
-  width: 150px;
+  width: 176px;
+  height: 40px;
+  padding: 0;
 }
 
 .btn-container button h6 {
   color: #fff;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .btn-container p {
-  color: rgba(88, 88, 88, 1);
+  color: #585858;
+  margin-bottom: 0;
+  font-size: 18px;
 }
 
 @media (min-width: 576px) {
@@ -115,5 +121,51 @@
 
   .btn-container {
     justify-content: flex-start;
+  }
+}
+
+@media (min-width: 992px) {
+  .home-card {
+    padding: 90px 250px 125px 250px;
+  }
+
+  .image-container img {
+    width: 100%;
+  }
+
+  .home-content p {
+    width: 420px;
+    margin-left: 0;
+    padding-left: 45px;
+    font-size: 18px;
+  }
+
+  .btn-container {
+    height: 125px;
+  }
+
+  .btn-container button {
+    height: 40px;
+    width: 175px;
+  }
+
+  .btn-container button h6 {
+    font-size: 14px;
+  }
+
+  .btn-container p {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .home-card {
+    flex-direction: row-reverse;
+    margin: 30px 150px;
+    padding: 85px;
+  }
+
+  .home-content {
+    text-align: left;
   }
 }

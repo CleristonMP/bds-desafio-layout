@@ -4,13 +4,13 @@ import CarImg from 'assets/images/car.png';
 
 const Home = () => {
   return (
-    <div className="wrapper-home">
-      <div className="home-card">
-        <div className="image-container">
+    <div className="wrapper-home container">
+      <div className="home-card row">
+        <div className="image-container col-xl-6">
           <img src={CarImg} alt="Carro principal" />
         </div>
 
-        <div className="home-content">
+        <div className="home-content col-xl-6">
           <h1>O carro perfeito para você</h1>
           <p>
             Conheça nossos carros e dê mais um passo na realização do seu sonho

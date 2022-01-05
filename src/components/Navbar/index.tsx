@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-md navbar-dark main-nav">
-      <div className="container-fluid">
+    <nav className="navbar fixed-top navbar-expand-md main-nav">
+      <div className="container-fluid main-nav-container">
         <Link to='/'>
           <a href="link">
             <h4>Carros Top</h4>
@@ -13,11 +13,11 @@ const Navbar = () => {
         </Link>
 
         <button
-          className="navbar-toggler"
+          className="navbar-toggler custom-button"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#desafio-navbar"
-          aria-controls="dscatalog-navbar"
+          aria-controls="desafio-navbar"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
@@ -26,7 +26,7 @@ const Navbar = () => {
 
         <div className="collapse navbar-collapse" id="desafio-navbar">
           <ul className="navbar-nav offset-md-2 main-menu">
-            <li>
+            <li className="custom-li">
               <a href="link">Home</a>
             </li>
             <li>
