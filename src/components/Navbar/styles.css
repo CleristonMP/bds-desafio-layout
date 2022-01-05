@@ -21,13 +21,13 @@
 }
 
 .main-menu a.active {
-  color: #fff;
+  color: #00285F;
   font-weight: bold;
 }
 
 .custom-button {
   border: unset;
-  padding-right: 0;
+  padding: 0;
 }
 
 .custom-button .navbar-toggler-icon {

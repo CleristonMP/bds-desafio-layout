@@ -1,0 +1,38 @@
+.wrapper-catalog {
+  padding: 0 10px;
+}
+
+.container-busca {
+  display: flex;
+  height: 90px;
+  background-color: #ededed;
+  border-radius: 10px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+}
+
+.search-box {
+  background: #fff;
+  border-radius: 6px 0px 0px 6px;
+}
+
+.search-box input {
+  border-radius: 6px 0px 0px 6px;
+}
+
+.search-box input::placeholder {
+  color: #a7a7a7;
+}
+
+.search-btn {
+  background: #00285f;
+  border-radius: 0px 6px 6px 0px;
+  color: #fff;
+}
