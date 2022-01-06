@@ -22,7 +22,31 @@ const Catalog = () => {
       </div>
       <div className="container">
         <div className="row">
-          <div className="col-sm-6">
+          <div className="col-sm-6 col-lg-4">
+            <CarCard />
+          </div>
+          <div className="col-sm-6 col-lg-4">
+            <CarCard />
+          </div>
+          <div className="col-sm-6 col-lg-4">
+            <CarCard />
+          </div>
+          <div className="col-sm-6 col-lg-4">
+            <CarCard />
+          </div>
+          <div className="col-sm-6 col-lg-4">
+            <CarCard />
+          </div>
+          <div className="col-sm-6 col-lg-4">
+            <CarCard />
+          </div>
+          <div className="col-sm-6 col-lg-4">
+            <CarCard />
+          </div>
+          <div className="col-sm-6 col-lg-4">
+            <CarCard />
+          </div>
+          <div className="col-sm-6 col-lg-4">
             <CarCard />
           </div>
         </div>

@@ -36,3 +36,35 @@ form {
   border-radius: 0px 6px 6px 0px;
   color: #fff;
 }
+
+@media (min-width: 576px) {
+  .container-busca {
+    height: 125px;
+  }
+
+  .search-box {
+    width: 320px;
+  }
+
+  .search-btn {
+    width: 175px;
+  }
+}
+
+@media (min-width: 576px) {
+  .search-box {
+    width: 516px;
+  }
+}
+
+@media (min-width: 992px) {
+  .search-box {
+    width: 590px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .wrapper-catalog {
+    padding: 0 150px;
+  }
+}
