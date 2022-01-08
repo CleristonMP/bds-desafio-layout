@@ -51,9 +51,9 @@ form {
   }
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .search-box {
-    width: 516px;
+    width: 490px;
   }
 }
 
